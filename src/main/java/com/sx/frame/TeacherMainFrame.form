@@ -1,0 +1,608 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.sx.frame.TeacherMainFrame">
+  <grid id="27dc6" class="com.sx.ui.ImgPanel" binding="rootPanel" layout-manager="GridLayoutManager" row-count="2" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="35" left="65" bottom="45" right="45"/>
+    <constraints>
+      <xy x="20" y="20" width="1884" height="1144"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="b8960" binding="topPanel" layout-manager="GridLayoutManager" row-count="2" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="10" left="15" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="4" fill="2" indent="0" use-parent-layout="false">
+            <minimum-size width="380" height="130"/>
+            <maximum-size width="380" height="130"/>
+          </grid>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="6b717" class="javax.swing.JLabel" binding="teacherAvatarLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="2" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false">
+                <minimum-size width="100" height="100"/>
+                <maximum-size width="100" height="100"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="Label"/>
+            </properties>
+          </component>
+          <component id="2bca2" class="javax.swing.JLabel" binding="teacherNameLabel">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="10" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="22"/>
+              <foreground color="-2430744"/>
+              <text value="Label"/>
+            </properties>
+          </component>
+          <component id="e12a3" class="javax.swing.JLabel" binding="teacherIdLabel">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="22"/>
+              <foreground color="-2430744"/>
+              <text value="Label"/>
+            </properties>
+          </component>
+          <hspacer id="a27e6">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+        </children>
+      </grid>
+      <grid id="4ab7a" binding="leftPanel" layout-manager="GridLayoutManager" row-count="5" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="30" left="10" bottom="0" right="10"/>
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="305" height="805"/>
+            <maximum-size width="305" height="805"/>
+          </grid>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <vspacer id="4ba5d">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <component id="b61bc" class="javax.swing.JLabel" binding="gradeLabel">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="&lt;html&gt;&lt;img src='https://yfuean-student-manager.oss-cn-shanghai.aliyuncs.com/img/grade.png'&gt;&lt;/html&gt;"/>
+            </properties>
+          </component>
+          <component id="f8fc7" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="22"/>
+              <foreground color="-2430744"/>
+              <text value="学生成绩"/>
+            </properties>
+          </component>
+          <component id="a9593" class="javax.swing.JLabel" binding="countLabel">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="&lt;html&gt;&lt;img src='https://yfuean-student-manager.oss-cn-shanghai.aliyuncs.com/img/gradeCount.png'&gt;&lt;/html&gt;"/>
+            </properties>
+          </component>
+          <component id="a299c" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="22"/>
+              <foreground color="-2430744"/>
+              <text value="成绩统计"/>
+            </properties>
+          </component>
+          <component id="409ed" class="javax.swing.JLabel" binding="personLabel">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="&lt;html&gt;&lt;img src='https://yfuean-student-manager.oss-cn-shanghai.aliyuncs.com/img/person.png'&gt;&lt;/html&gt;"/>
+            </properties>
+          </component>
+          <component id="89554" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="22"/>
+              <foreground color="-2430744"/>
+              <text value="个人信息"/>
+            </properties>
+          </component>
+          <component id="59028" class="javax.swing.JLabel" binding="firstPageLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <minimum-size width="100" height="100"/>
+                <maximum-size width="100" height="100"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="&lt;html&gt;&lt;img src='https://yfuean-student-manager.oss-cn-shanghai.aliyuncs.com/img/firstPage.png'&gt;&lt;/html&gt;"/>
+            </properties>
+          </component>
+          <component id="51480" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="22"/>
+              <foreground color="-2430744"/>
+              <text value="首页"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="5d3b7" binding="centerPanel" layout-manager="CardLayout" hgap="50" vgap="50">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="3" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="1455" height="805"/>
+            <maximum-size width="1455" height="805"/>
+          </grid>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="e7d1c" binding="personPanel" layout-manager="GridLayoutManager" row-count="10" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="130" left="500" bottom="0" right="500"/>
+            <constraints>
+              <card name="Card1"/>
+            </constraints>
+            <properties>
+              <background color="-2430744"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="4fcbd" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font size="26"/>
+                  <foreground color="-12828863"/>
+                  <text value="工号："/>
+                </properties>
+              </component>
+              <vspacer id="81e14">
+                <constraints>
+                  <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </vspacer>
+              <component id="719d0" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font size="26"/>
+                  <foreground color="-12828863"/>
+                  <text value="姓名："/>
+                </properties>
+              </component>
+              <component id="e511a" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font size="26"/>
+                  <foreground color="-12828863"/>
+                  <text value="性别："/>
+                </properties>
+              </component>
+              <component id="7818" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font size="26"/>
+                  <foreground color="-12828863"/>
+                  <text value="系部："/>
+                </properties>
+              </component>
+              <component id="95877" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font size="26"/>
+                  <foreground color="-12828863"/>
+                  <text value="职称："/>
+                </properties>
+              </component>
+              <component id="66bf7" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font size="26"/>
+                  <foreground color="-12828863"/>
+                  <text value="学历："/>
+                </properties>
+              </component>
+              <component id="a9663" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font size="26"/>
+                  <foreground color="-12828863"/>
+                  <text value="密码："/>
+                </properties>
+              </component>
+              <component id="bbceb" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font size="26"/>
+                  <foreground color="-12828863"/>
+                  <text value="头像："/>
+                </properties>
+              </component>
+              <component id="b9cc0" class="javax.swing.JLabel" binding="teaIdLabel">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font size="26"/>
+                  <foreground color="-12828863"/>
+                  <text value="Label"/>
+                </properties>
+              </component>
+              <component id="a5d51" class="javax.swing.JLabel" binding="teaNamLabel">
+                <constraints>
+                  <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font size="26"/>
+                  <foreground color="-12828863"/>
+                  <text value="Label"/>
+                </properties>
+              </component>
+              <component id="ad8f0" class="javax.swing.JLabel" binding="teaGenLabel">
+                <constraints>
+                  <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font size="26"/>
+                  <foreground color="-12828863"/>
+                  <text value="Label"/>
+                </properties>
+              </component>
+              <component id="1a741" class="javax.swing.JLabel" binding="teaDepLabel">
+                <constraints>
+                  <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font size="26"/>
+                  <foreground color="-12828863"/>
+                  <text value="Label"/>
+                </properties>
+              </component>
+              <component id="c9332" class="javax.swing.JLabel" binding="teaJobLabel">
+                <constraints>
+                  <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font size="26"/>
+                  <foreground color="-12828863"/>
+                  <text value="Label"/>
+                </properties>
+              </component>
+              <component id="3d1d6" class="javax.swing.JLabel" binding="teaEduLabel">
+                <constraints>
+                  <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font size="26"/>
+                  <foreground color="-12828863"/>
+                  <text value="Label"/>
+                </properties>
+              </component>
+              <component id="375ff" class="javax.swing.JPasswordField" binding="teaPasField">
+                <constraints>
+                  <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <editable value="false"/>
+                  <font size="26"/>
+                  <foreground color="-12828863"/>
+                </properties>
+              </component>
+              <component id="98910" class="javax.swing.JLabel" binding="teaAvaLabel">
+                <constraints>
+                  <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                    <minimum-size width="100" height="100"/>
+                    <maximum-size width="100" height="100"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <text value="Label"/>
+                </properties>
+              </component>
+              <component id="e6389" class="javax.swing.JButton" binding="编辑Button" default-binding="true">
+                <constraints>
+                  <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-8877971"/>
+                  <borderPainted value="true"/>
+                  <contentAreaFilled value="true"/>
+                  <focusPainted value="false"/>
+                  <focusable value="false"/>
+                  <font size="26"/>
+                  <foreground color="-2430744"/>
+                  <text value="编辑"/>
+                </properties>
+              </component>
+              <component id="1fecc" class="javax.swing.JButton" binding="保存Button" default-binding="true">
+                <constraints>
+                  <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-3108782"/>
+                  <enabled value="true"/>
+                  <focusPainted value="false"/>
+                  <focusable value="false"/>
+                  <font size="26"/>
+                  <foreground color="-2430744"/>
+                  <text value="保存"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="26f7d" binding="gradePanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints>
+              <card name="Card2"/>
+            </constraints>
+            <properties>
+              <background color="-4600622"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="b10e9" class="javax.swing.JLabel">
+                <constraints border-constraint="North"/>
+                <properties>
+                  <focusable value="true"/>
+                  <font size="36"/>
+                  <foreground color="-3108782"/>
+                  <text value="学生成绩"/>
+                </properties>
+              </component>
+              <grid id="3a56a" binding="addGradePanel" layout-manager="GridLayoutManager" row-count="2" column-count="8" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="10" left="10" bottom="10" right="10"/>
+                <constraints border-constraint="South"/>
+                <properties>
+                  <background color="-8877971"/>
+                  <maximumSize width="2147483647" height="150"/>
+                  <minimumSize width="24" height="150"/>
+                  <preferredSize width="24" height="150"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="76d03" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font size="26"/>
+                      <foreground color="-3108782"/>
+                      <text value="成绩录入"/>
+                    </properties>
+                  </component>
+                  <component id="55bc3" class="javax.swing.JComboBox" binding="departmentComboBox">
+                    <constraints>
+                      <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                        <minimum-size width="200" height="-1"/>
+                        <preferred-size width="200" height="-1"/>
+                        <maximum-size width="200" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <editable value="false"/>
+                      <enabled value="true"/>
+                      <font size="22"/>
+                    </properties>
+                  </component>
+                  <component id="d9e5d" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font size="22"/>
+                      <foreground color="-3108782"/>
+                      <text value="院系："/>
+                    </properties>
+                  </component>
+                  <component id="cdf8" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font size="22"/>
+                      <foreground color="-3108782"/>
+                      <text value="姓名："/>
+                    </properties>
+                  </component>
+                  <component id="d2044" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font size="22"/>
+                      <foreground color="-3108782"/>
+                      <text value="学号："/>
+                    </properties>
+                  </component>
+                  <component id="c5c37" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font size="22"/>
+                      <foreground color="-3108782"/>
+                      <text value="课程："/>
+                    </properties>
+                  </component>
+                  <component id="a136f" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="0" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font size="22"/>
+                      <foreground color="-3108782"/>
+                      <text value="测试日期："/>
+                    </properties>
+                  </component>
+                  <component id="968f6" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="0" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font size="22"/>
+                      <foreground color="-3108782"/>
+                      <text value="评分："/>
+                    </properties>
+                  </component>
+                  <component id="8a8dd" class="javax.swing.JComboBox" binding="NameComboBox">
+                    <constraints>
+                      <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                        <minimum-size width="100" height="-1"/>
+                        <preferred-size width="100" height="-1"/>
+                        <maximum-size width="100" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <font size="22"/>
+                    </properties>
+                  </component>
+                  <component id="545a5" class="javax.swing.JLabel" binding="studentIdLabel">
+                    <constraints>
+                      <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font size="22"/>
+                      <foreground color="-12828863"/>
+                      <text value="未选择"/>
+                    </properties>
+                  </component>
+                  <component id="538e0" class="javax.swing.JTextField" binding="gradeTextField">
+                    <constraints>
+                      <grid row="1" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                        <minimum-size width="150" height="-1"/>
+                        <preferred-size width="150" height="-1"/>
+                        <maximum-size width="150" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <font size="22"/>
+                    </properties>
+                  </component>
+                  <hspacer id="f706c">
+                    <constraints>
+                      <grid row="0" column="7" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                  </hspacer>
+                  <grid id="1aed8" binding="testDatePanel" layout-manager="FlowLayout" hgap="5" vgap="30" flow-align="1">
+                    <constraints>
+                      <grid row="1" column="5" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-8877971"/>
+                    </properties>
+                    <border type="none"/>
+                    <children/>
+                  </grid>
+                  <component id="8ec1a" class="javax.swing.JButton" binding="添加Button" default-binding="true">
+                    <constraints>
+                      <grid row="1" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-3108782"/>
+                      <focusPainted value="false"/>
+                      <focusable value="false"/>
+                      <font size="26"/>
+                      <foreground color="-11508647"/>
+                      <text value="添加"/>
+                    </properties>
+                  </component>
+                  <component id="6abbf" class="javax.swing.JComboBox" binding="CourseComboBox">
+                    <constraints>
+                      <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <minimum-size width="200" height="-1"/>
+                        <preferred-size width="200" height="-1"/>
+                        <maximum-size width="200" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <font size="22"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="69dc" binding="gradeTablePanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+                <constraints border-constraint="Center"/>
+                <properties/>
+                <border type="none"/>
+                <children/>
+              </grid>
+            </children>
+          </grid>
+          <grid id="dca38" binding="countPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints>
+              <card name="Card4"/>
+            </constraints>
+            <properties>
+              <background color="-2430744"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <grid id="a4579" binding="firstPanel" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <card name="Card3"/>
+            </constraints>
+            <properties>
+              <background color="-13928725"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="85965" class="javax.swing.JLabel" binding="teacherLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="&lt;html&gt;&lt;img src='https://yfuean-student-manager.oss-cn-shanghai.aliyuncs.com/img/teacher.png'&gt;&lt;/html&gt;"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <hspacer id="9f073">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+    </children>
+  </grid>
+</form>
