@@ -170,9 +170,11 @@ public class TeacherMainFrame extends JFrame{
             public void actionPerformed(ActionEvent e) {
                 //上传文件到OSS并返回外链
                 uploadFileUrl = AliOSSUtil.ossUpload(file);
+                //获取密码框密码
+                String p = new String(teaPasField.getPassword()).trim();
                 //获取加密
                 Password password = new Password();
-                String mde5PassWord = password.encryption(teaPasField.getText());
+                String mde5PassWord = password.encryption(p);
                 TeacherService teacherService = ServiceFactory.getTeacherServiceInstance();
                 teacher.setId(teaIdLabel.getText());
                 teacher.setName(teaNamLabel.getText());
