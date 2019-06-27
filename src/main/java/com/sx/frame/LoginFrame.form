@@ -60,6 +60,7 @@
               <background color="-14921637"/>
               <focusPainted value="false"/>
               <font size="24"/>
+              <foreground color="-3108782"/>
               <text value="管理员"/>
             </properties>
           </component>
@@ -71,6 +72,7 @@
               <background color="-14921637"/>
               <focusPainted value="false"/>
               <font size="24"/>
+              <foreground color="-3108782"/>
               <text value="任课老师"/>
             </properties>
           </component>
@@ -82,6 +84,7 @@
               <background color="-14921637"/>
               <focusPainted value="false"/>
               <font size="24"/>
+              <foreground color="-3108782"/>
               <text value="学生"/>
             </properties>
           </component>

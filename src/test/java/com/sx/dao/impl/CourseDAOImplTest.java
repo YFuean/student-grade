@@ -38,7 +38,7 @@ public class CourseDAOImplTest {
     @Test
     public void deleteCourse() {
         try {
-            courseDAO.deleteCourse(56);
+            courseDAO.deleteCourse(59);
         } catch (SQLException e) {
             e.printStackTrace();
         }

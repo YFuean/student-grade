@@ -76,6 +76,6 @@ public class StuGraVOServiceImplTest {
 
     @Test
     public void deleteGrade() {
-        stuGraVOService.deleteGrade(26);
+        stuGraVOService.deleteGrade(48);
     }
 }

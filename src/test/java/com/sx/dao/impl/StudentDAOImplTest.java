@@ -88,7 +88,7 @@ public class StudentDAOImplTest {
     @Test
     public void updateStudent() {
         Student student = new Student();
-        student.setId("100");
+        student.setId("1802341102");
         student.setPassword("000000");
         student.setName("yuefan");
         student.setDepartment("体育部");

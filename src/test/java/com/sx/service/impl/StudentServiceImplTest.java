@@ -41,7 +41,7 @@ public class StudentServiceImplTest {
     @Test
     public void insertStudent() {
         Student student = new Student();
-        student.setId("100");
+        student.setId("101");
         student.setPassword("123456");
         student.setName("yuefan");
         student.setDepartment("体育部");

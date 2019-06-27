@@ -27,6 +27,6 @@ public class CourseServiceImplTest {
 
     @Test
     public void deleteCourse() {
-        courseService.deleteCourse(57);
+        courseService.deleteCourse(61);
     }
 }

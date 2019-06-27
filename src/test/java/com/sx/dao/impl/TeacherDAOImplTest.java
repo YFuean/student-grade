@@ -67,8 +67,17 @@ public class TeacherDAOImplTest {
 
     @Test
     public void deleteTeacher() {
+        try {
+            teacherDAO.deleteTeacher("100");
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
+
+    @Test
+    public void updateTeacher() {
         Teacher teacher = new Teacher();
-        teacher.setId("100");
+        teacher.setId("1412666003");
         teacher.setPassword("123456");
         teacher.setName("yuefan");
         teacher.setDepartment("体育部");
@@ -78,15 +87,6 @@ public class TeacherDAOImplTest {
         teacher.setAvatar("https://yfuean-student-manager.oss-cn-shanghai.aliyuncs.com/img/9c2436e7-551f-427b-91f5-d6a11b92885d.jpg");
         try {
             teacherDAO.updateTeacher(teacher);
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
-    }
-
-    @Test
-    public void updateTeacher() {
-        try {
-            teacherDAO.deleteTeacher("100");
         } catch (SQLException e) {
             e.printStackTrace();
         }

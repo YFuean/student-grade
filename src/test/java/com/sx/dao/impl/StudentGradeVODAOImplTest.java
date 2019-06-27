@@ -96,7 +96,7 @@ public class StudentGradeVODAOImplTest {
         grade.setStudentId("1802341102");
         grade.setTeacherId("1412666007");
         grade.setTestDate(new Date());
-        grade.setId(45);
+        grade.setScore(24);
         try {
             studentGradeVODAO.insertGrade(grade);
         } catch (SQLException e) {
@@ -107,7 +107,7 @@ public class StudentGradeVODAOImplTest {
     @Test
     public void updateGrade() {
         Grade grade = new Grade();
-        grade.setId(25);
+        grade.setId(34);
         grade.setScore(100);
         try {
             studentGradeVODAO.updateGrade(grade);
@@ -119,7 +119,7 @@ public class StudentGradeVODAOImplTest {
     @Test
     public void deleteGrade() {
         try {
-            studentGradeVODAO.deleteGrade(25);
+            studentGradeVODAO.deleteGrade(37);
         } catch (SQLException e) {
             e.printStackTrace();
         }
