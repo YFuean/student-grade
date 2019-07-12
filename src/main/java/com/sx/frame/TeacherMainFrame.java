@@ -7,7 +7,6 @@ import com.sx.service.TeacherService;
 import com.sx.ui.ImgPanel;
 import com.sx.utils.AliOSSUtil;
 import com.eltima.components.ui.DatePicker;
-import com.sx.utils.ImgThread;
 import com.sx.utils.Password;
 import net.coobird.thumbnailator.Thumbnails;
 import org.jfree.chart.ChartFactory;

@@ -11,7 +11,6 @@ import com.sx.utils.Password;
 import net.coobird.thumbnailator.Thumbnails;
 import sun.swing.table.DefaultTableCellHeaderRenderer;
 
-import javax.print.DocFlavor;
 import javax.swing.*;
 import javax.swing.table.DefaultTableCellRenderer;
 import javax.swing.table.DefaultTableModel;
@@ -23,8 +22,6 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.net.URI;
-import java.security.MessageDigest;
-import java.security.NoSuchAlgorithmException;
 import java.util.List;
 
 public class StudentMainFrame extends JFrame{

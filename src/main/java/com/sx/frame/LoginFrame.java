@@ -9,7 +9,6 @@ import com.sx.ui.TranslucenceJPanel;
 import com.sx.utils.ResultEntity;
 
 import javax.swing.*;
-import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
